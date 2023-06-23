@@ -1,0 +1,84 @@
+{
+  "format": 1,
+  "restore": {
+    "C:\\Users\\WilliamWestlake\\source\\repos\\ConsoleApp2\\ConsoleApp2\\ConsoleApp2.fsproj": {}
+  },
+  "projects": {
+    "C:\\Users\\WilliamWestlake\\source\\repos\\ConsoleApp2\\ConsoleApp2\\ConsoleApp2.fsproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "C:\\Users\\WilliamWestlake\\source\\repos\\ConsoleApp2\\ConsoleApp2\\ConsoleApp2.fsproj",
+        "projectName": "ConsoleApp2",
+        "projectPath": "C:\\Users\\WilliamWestlake\\source\\repos\\ConsoleApp2\\ConsoleApp2\\ConsoleApp2.fsproj",
+        "packagesPath": "C:\\Users\\WilliamWestlake\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\WilliamWestlake\\source\\repos\\ConsoleApp2\\ConsoleApp2\\obj\\",
+        "projectStyle": "PackageReference",
+        "fallbackFolders": [
+          "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
+        ],
+        "configFilePaths": [
+          "C:\\Users\\WilliamWestlake\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "net7.0"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages": {},
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "C:\\Program Files\\dotnet\\library-packs": {},
+          "C:\\Program Files\\dotnet\\sdk\\7.0.304\\FSharp\\library-packs": {},
+          "https://api.nuget.org/v3/index.json": {},
+          "https://repoman.loadrpm.com/repository/nuget-hosted/": {}
+        },
+        "frameworks": {
+          "net7.0": {
+            "targetAlias": "net7.0",
+            "projectReferences": {}
+          }
+        }
+      },
+      "frameworks": {
+        "net7.0": {
+          "targetAlias": "net7.0",
+          "dependencies": {
+            "Check.Password.Strength": {
+              "target": "Package",
+              "version": "[1.0.3, )",
+              "generatePathProperty": true
+            },
+            "FSharp.Core": {
+              "include": "Runtime, Compile, Build, Native, Analyzers, BuildTransitive",
+              "target": "Package",
+              "version": "[7.0.300, )",
+              "generatePathProperty": true
+            },
+            "RulesEngine": {
+              "target": "Package",
+              "version": "[4.0.0, )",
+              "generatePathProperty": true
+            }
+          },
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48",
+            "net481"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\7.0.304\\RuntimeIdentifierGraph.json"
+        }
+      }
+    }
+  }
+}
